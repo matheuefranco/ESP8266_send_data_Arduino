@@ -6,9 +6,9 @@ int thermoCS = 15;
 int thermoCLK = 14;
 MAX6675 thermocouple(thermoCLK, thermoCS, thermoDO);
  
-String apiKey = "Q6UX562Z8OC7CGFP"; // Enter your Write API key from ThingSpeak
+String apiKey = "XXX"; // Enter your Write API key from ThingSpeak
 const char *ssid = "projetos_auto";     // replace with your wifi ssid and wpa2 key
-const char *pass = "CybertronIFM23";
+const char *pass = "XXX";
 const char* server = "api.thingspeak.com";
  
  
